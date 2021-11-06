@@ -9,6 +9,11 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
+  heading: The Alkamind moment is when the frenetic noise in your mind calms down
+    and you can engage in a conversation where you feel that you have been
+    heard.
+  subheading: We help you identify and apply developmental models of change
+    management to support the next stage of your organization
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -68,9 +73,24 @@ description: Kaldi is the ultimate spot for coffee lovers who want to learn
   knowledge to anyone.
 services:
   service-type:
-    - heading: Organizational Change Management
+    - heading: Change Management
       services:
-        - service: Internal Organizational Change Conferences
+        - service: Internal Organizational Change Conference
+        - service: Change Readiness Cultural Design
+        - service: Knowledge Management Design
+        - service: Executive Coaching
+    - heading: Strategy and Programming
+      services:
+        - service: Transformation Agenda
+        - service: Initiative Roadmap
+        - service: Program Structure & Compliance Design
+        - service: Program Design for Organizational Accountability
+        - service: Coodination Services for Compliance Accreditation
+    - heading: Systems and Service Design
+      services:
+        - service: Designing Availability, Performance & Asset Management
+        - service: Integrated Design of Tools and Service Management Workflow
+        - service: Workgroup Design & Structure for Skills-Based Workflow
   description: With decades of experience in the evolution of digital technology
     in a variety of international setting and diverse set of business, we bring
     empathy to the challenges you are experiencing. Let us start with an
