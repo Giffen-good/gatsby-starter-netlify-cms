@@ -1,7 +1,7 @@
 ---
-templateKey: index-page
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
+templateKey: index-page
 mainpitch:
   title: Why Kaldi
   description: >
@@ -49,6 +49,18 @@ intro:
     java’s origin and support the farmers that grew it. We take coffee
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
+contact-blurb: >-
+  Let us start with a conversation around context, needs and wants. 
+
+  You may request a half-hour introduction call using the Calendly embed to the side.
+
+
+
+
+  ###### Email: alf@alkamind.com
+
+
+  ###### LinkedIn: [alfrock](https://www.linkedin.com/in/alfrock/)
 title: Great coffee with a conscience
 main:
   heading: Great coffee with no compromises
