@@ -13,26 +13,6 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - {
-          label: "Template Key",
-          name: "templateKey",
-          widget: "hidden",
-          default: "blog-post",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Featured Post", name: "featuredpost", widget: "boolean" }
-      - { label: "Featured Image", name: "featuredimage", widget: image }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
-
   - name: "pages"
     label: "Pages"
     files:
@@ -54,8 +34,8 @@ collections:
                 [
                   { label: Heading, name: heading, widget: markdown },
                   { label: Subheading, name: subheading, widget: text },
-                  { label: Button Text, name: button-text, widget: string },
-                  { label: Button Url, name: button-url, widget: string },
+                  { label: Button Text, name: buttonText, widget: string },
+                  { label: Button Url, name: buttonUrl, widget: string },
                 ],
             }
           - {
@@ -68,7 +48,7 @@ collections:
                   { label: Description, name: description, widget: text },
                   {
                     label: Service Type,
-                    name: service-type,
+                    name: serviceType,
                     widget: list,
                     fields:
                       [
@@ -86,7 +66,7 @@ collections:
             }
           - {
               label: Maturity Models,
-              name: maturity-models,
+              name: maturityModels,
               widget: object,
               fields:
                 [
@@ -103,7 +83,7 @@ collections:
                   },
                 ],
             }
-          - { label: Contact, name: contact-blurb, widget: markdown }
+          - { label: Contact, name: contactBlurb, widget: markdown }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
