@@ -16,6 +16,19 @@ mainpitch:
     management to support the next stage of your organization
   button-text: Start a Conversation
   button-url: "#contact"
+maturity-models:
+  heading: Models of Maturity
+  model:
+    - title: AQAL Infographic</br>Adapted from Ken Wilbur
+      content: >-
+        Alkamind engagements start by understanding the client within a
+        developmental model of maturity. Every organism or organization evolved
+        through generally distinct levels of maturity. When energy and skillful
+        means are focused on the appropriate next steps through those
+        developmental steps, the journey is both a fulfilling and rewarding one.
+
+
+        ![Graphical representation of Ken Wilbur's "all quadrants, all levels, all lines, all states, all types" to integral thinking](/img/infographic-sample.png "Ken Wilbur's AQAL diagram.")
 intro:
   blurbs:
     - image: /img/coffee.png
