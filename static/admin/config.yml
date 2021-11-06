@@ -46,16 +46,16 @@ collections:
               widget: "hidden",
               default: "index-page",
             }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
           - {
               label: Mainpitch,
               name: mainpitch,
               widget: object,
               fields:
                 [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Heading, name: heading, widget: markdown },
+                  { label: Subheading, name: subheading, widget: text },
+                  { label: Button Text, name: button-text, widget: string },
+                  { label: Button Url, name: button-url, widget: string },
                 ],
             }
           - {
@@ -66,27 +66,22 @@ collections:
                 [
                   { label: Heading, name: heading, widget: string },
                   { label: Description, name: description, widget: text },
-                  - {
+                  {
                     label: Service Type,
                     name: service-type,
                     widget: list,
                     fields:
                       [
+                        { label: Heading, name: heading, widget: string },
                         {
                           label: Services,
                           name: services,
                           widget: list,
-                          fields: [
-                            {
-                              label: Service,
-                              name: service,
-                              widget: text
-                            }
-                          ]
-                        }
-                        
+                          fields:
+                            [{ label: Service, name: service, widget: string }],
+                        },
                       ],
-                  }
+                  },
                 ],
             }
           - {
@@ -95,17 +90,20 @@ collections:
               widget: object,
               fields:
                 [
+                  { label: Heading, name: heading, widget: string },
                   {
                     label: Model,
                     name: model,
                     widget: list,
-                    fields: [
-                      { label: Heading, name: heading, widget: string },
-                      { label: Description, name: description, widget: text },
-                    ]
-                  }
-                ]
+                    fields:
+                      [
+                        { label: Title, name: title, widget: string },
+                        { label: Content, name: content, widget: markdown },
+                      ],
+                  },
+                ],
             }
+          - { label: Contact, name: contact-blurb, widget: markdown }
       - file: "src/pages/about/index.md"
         label: "About"
         name: "about"
