@@ -9,11 +9,13 @@ mainpitch:
     shouldn't just taste good, it should do good too. We source all of our beans
     directly from small scale sustainable farmers and make sure part of the
     profits are reinvested in their communities.
-  heading: The Alkamind moment is when the frenetic noise in your mind calms down
-    and you can engage in a conversation where you feel that you have been
-    heard.
+  heading: "## The *Alkamind moment* is when the frenetic noise in your mind calms
+    down and you can engage in a conversation where you feel that you have been
+    heard."
   subheading: We help you identify and apply developmental models of change
     management to support the next stage of your organization
+  button-text: Start a Conversation
+  button-url: "#contact"
 intro:
   blurbs:
     - image: /img/coffee.png
